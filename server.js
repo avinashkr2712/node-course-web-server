@@ -37,6 +37,10 @@ app.get('/about',(req,res)=>{
   res.render('about.hbs');
 });
 
+app.get('/project',(req,res)=>{
+  res.render('project.hbs');
+});
+
 app.get('/bad', (req, res)=>{
     //res.send('<h1>hello express</h1>');
     res.send({
